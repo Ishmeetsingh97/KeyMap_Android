@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KeyMap</string>
+
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+    <string name="location_updated_message">Location updated</string>
+    <string name="title_activity_plot_map_trace">Map</string>
+
+    <string name="text_input_title">Enter Your Phone Number</string>
+    <string name="text_input_message">Input must match \\\\w+ or dialog won\'t accept it. That is because TextFilter object is set.</string>
+    <string name="text_input_error_message">I told you. Please type something correct.</string>
+    <string name="title_location_permission">hh</string>
+    <string name="text_location_permission">aa</string>
+    <string name="ok">ok</string>
+</resources>

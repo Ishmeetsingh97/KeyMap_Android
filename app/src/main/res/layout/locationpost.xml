@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+   >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="org.example.warmachine.KeyMap.LocationPost" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_updates_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="startUpdatesButtonHandler"
+            android:text="@string/start_updates" />
+
+        <Button
+            android:id="@+id/stop_updates_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:gravity="center"
+            android:onClick="stopUpdatesButtonHandler"
+            android:text="@string/stop_updates" />
+    </LinearLayout>
+</RelativeLayout>
